@@ -43,7 +43,6 @@
                         </v-avatar>
                         </template>
                         <template v-slot:append>
-
                             <v-menu>
                             <template v-slot:activator="{ props }">
                             <v-btn
