@@ -1,5 +1,6 @@
 <template>
 <v-app>
+<v-parallax src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg">
 <v-main>
     <div class="d-flex justify-center">
     <v-card elevation="2" width="400" height="550" class="mt-10">
@@ -25,7 +26,9 @@
         </v-card-text>
         </v-card>
         </div>
+
 </v-main>
+</v-parallax>
 </v-app>
 </template>
 

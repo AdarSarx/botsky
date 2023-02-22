@@ -1,8 +1,11 @@
 <template>
   <v-app>
+    <v-parallax
+    src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+    >
     <v-main>
     <div class="d-flex justify-center">
-    <v-card elevation="2" width="400" height="320" class="mt-15">
+    <v-card elevation="2" width="400" height="320" class="mt-15 ">
        <div class="text-center">
         <span> LOGIN </span>
        </div>
@@ -15,7 +18,7 @@
             v-model="form.password"
             :error-messages="errors.password"
             ></v-text-field>
-            <v-btn block color="primary" @click="login">Login</v-btn>
+            <v-btn block color="primary"  @click="login">Login</v-btn>
         <div class="mt-5">
             <v-btn elevation="2" small x-small @click="register">Register</v-btn>
         </div>
@@ -24,6 +27,7 @@
         </v-card>
         </div>
     </v-main>
+    </v-parallax>
   </v-app>
 </template>
 
