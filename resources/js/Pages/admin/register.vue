@@ -1,6 +1,6 @@
 <template>
   <v-table class="mx-10 my-10">
-      <thead class="bg-green">
+      <thead class="bg-primary">
         <tr>
             <th>#</th>
             <th>Nama</th>

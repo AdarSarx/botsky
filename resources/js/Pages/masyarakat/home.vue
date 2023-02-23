@@ -25,8 +25,7 @@
 
                         <template v-slot:prepend>
                             <v-avatar color="grey-lighten-1">
-                                <v-img class="bg-white" width="300" :aspect-ratio="1" :src="'/storage/' + row.foto"
-                                    cover></v-img>
+                                <v-img class="bg-white" width="300" :aspect-ratio="1" :src="'/storage/' + row.foto" cover></v-img>
                             </v-avatar>
                         </template>
 

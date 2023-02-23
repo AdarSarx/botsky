@@ -102,10 +102,11 @@ export default {
         batal() {
             this.form.foto = null,
                 this.form.isi = ""
-            // router.visit('/admin/user/'+this.form,{
-            //     method:'post',
-            //     preserveState: true,
-            //     preserveScroll: false,
+            //  router.visit('/admin/user/'+this.form,{
+            //      method:'post',
+            //      preserveState: true,
+            //      preserveScroll: false,
+            //  })
         },
         hapus($id){
             router.visit('/masyarakat/pengaduan/'+$id,{
