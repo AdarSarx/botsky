@@ -9,7 +9,7 @@
                 <QuillEditor v-model:content="form.isi" contentType="html" />
             </v-card-text>
             <v-card-action>
-                <v-btn color="blue" class="ml-4 mb-3" @click="adukan">Adukan</v-btn>
+                <v-btn color="blue-grey-darken-3" class="ml-4 mb-3" @click="adukan">Adukan</v-btn>
             </v-card-action>
         </v-card>
     </div>
@@ -26,9 +26,9 @@
 
                         <v-list-item>
                             <span v-if="row.status=='0'" class="text-red">Status : belum diproses</span>
-                            <span v-else class="text-red">Status : {{row.status}}</span>
+                            <span v-else class="text-green">Status : {{row.status}}</span>
                         </v-list-item>
-                        <v-list-item-subtitle>
+                        <v-list-item-subtitle >
                             <tanggapan-1 :id="row.id"/>
                         </v-list-item-subtitle>
                         <template v-slot:prepend>

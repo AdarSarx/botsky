@@ -5,7 +5,7 @@
   <v-table>
     <thead>
         <tr>
-            <th>#</th>
+            <th>No</th>
             <th>NIK</th>
             <th>NAMA</th>
             <th>PENGADUAN</th>
@@ -60,7 +60,7 @@
     <table ref="table">
         <thead>
         <tr>
-            <th>#</th>
+            <th>No</th>
             <th>NIK</th>
             <th>NAMA</th>
             <th>PENGADUAN</th>

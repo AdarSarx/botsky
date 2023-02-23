@@ -1,13 +1,13 @@
 <template>
     <div class="mx-10 my-10 text-right">
-        <v-btn prepend-icon="mdi mdi-plus" @click="dialog_insert = true" color="primary">
+        <v-btn prepend-icon="mdi mdi-plus" @click="dialog_insert = true" color="blue-grey-darken-3 text-white">
             tambah
         </v-btn>
     </div>
     <v-table class="mx-10 my-10">
-        <thead class="bg-primary">
+        <thead class="bg-white">
             <tr>
-                <th>#</th>
+                <th>No</th>
                 <th>Nama</th>
                 <th>NIK</th>
                 <th>username</th>

@@ -1,8 +1,8 @@
 <template>
   <v-table class="mx-10 my-10">
-      <thead class="bg-primary">
+      <thead>
         <tr>
-            <th>#</th>
+            <th>No</th>
             <th>Nama</th>
             <th>NIK</th>
             <th>username</th>
@@ -18,7 +18,7 @@
             <td>{{row.username}}</td>
             <td>{{row.tlp}}</td>
             <td>
-               <v-btn color="primary" @click="konfirmasi(row.id)">Konfirmasi</v-btn>
+               <v-btn color="blue-grey-darken-3" @click="konfirmasi(row.id)">Konfirmasi</v-btn>
             </td>
         </tr>
 

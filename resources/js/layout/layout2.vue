@@ -1,21 +1,18 @@
 <template>
-  <v-app id="inspire">
-    <v-system-bar class="bg-blue">
+  <v-app class="bg-blue-grey-darken-3" id="inspire">
+    <v-system-bar class="bg-blue-grey-darken-4">
       <v-spacer></v-spacer>
     <v-tooltip text="LOGOUT">
         <template v-slot:activator="{ props }" >
             <v-icon color="white" v-bind="props" @click="logout">mdi mdi-logout</v-icon>
         </template>
     </v-tooltip>
-
     </v-system-bar>
-
-    <v-navigation-drawer v-model="drawer">
+    <v-navigation-drawer class="bg-blue-grey-darken-2" v-model="drawer">
       <v-sheet
-        color="grey-lighten-4"
+        color="blue-grey-darken-2"
         class="pa-4"
-      >
-
+        >
         <div>{{ user.nama }} ({{ user.level }})</div>
       </v-sheet>
 
@@ -25,7 +22,7 @@
         <Link href="/masyarakat" as="div">
                 <v-list-item to="/masyarakat">
                     <template v-slot:prepend>
-                        <v-icon>mdi mdi-home-account</v-icon>
+                        <v-icon color="white">mdi mdi-home-account</v-icon>
                     </template>
 
                     <v-list-item-title>Home</v-list-item-title>
@@ -34,7 +31,7 @@
                 <Link href="/masyarakat/pengaduan" as="div">
                 <v-list-item to="/masyarakat">
                     <template v-slot:prepend>
-                        <v-icon>mdi mdi-duck</v-icon>
+                        <v-icon color="white">mdi mdi-account-arrow-up</v-icon>
                     </template>
 
                     <v-list-item-title>Pengaduan</v-list-item-title>

@@ -18,7 +18,7 @@
             v-model="form.password"
             :error-messages="errors.password"
             ></v-text-field>
-            <v-btn block color="primary"  @click="login">Login</v-btn>
+            <v-btn block color="blue-grey-darken-3" @click="login">Login</v-btn>
         <div class="mt-5">
             <v-btn elevation="2" small x-small @click="register">Register</v-btn>
         </div>

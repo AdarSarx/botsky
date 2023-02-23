@@ -1,8 +1,8 @@
 <template>
-   <v-app id="inspire">
-    <v-navigation-drawer v-model="drawer">
+   <v-app class="bg-blue-grey-darken-2" id="inspire">
+    <v-navigation-drawer class="bg-blue-grey-darken-1" v-model="drawer">
        <v-list density="compact">
-      <v-list-subheader>{{user.nama}}</v-list-subheader>
+      <v-list-subheader color="white">{{user.nama}}</v-list-subheader>
         <Link href="/admin" as="div">
       <v-list-item
         active-color="primary"
@@ -35,7 +35,7 @@
     </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar>
+    <v-app-bar color="blue-grey-darken-4">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>{{user.level}}</v-toolbar-title>

@@ -18,7 +18,7 @@
             type="password"
             v-model="form.password"
             ></v-text-field>
-            <v-btn block color="primary" @click="register">register</v-btn>
+            <v-btn block color="blue-grey-darken-3" @click="register">register</v-btn>
         <div class="mt-5">
             <v-btn elevation="2" small x-small @click="login">login</v-btn>
         </div>
